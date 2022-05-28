@@ -88,53 +88,53 @@
 
 @media screen and (orientation:portrait) {
     .calc-button {
-        border-radius: 1vw;
-        font-size: 5vw;
+        border-radius: 1.5vw;
+        font-size: 7.5vw;
     }
       
     .small-button {
-        width: 13vw;
-        height: 9vw;
+        width: 19.5vw;
+        height: 13.5vw;
     }
       
     .large-button {
-        width: 28vw;
-        height: 9vw;
+        width: 42vw;
+        height: 13.5vw;
     }
     
     .red-button {
-        box-shadow: 0 0.75vw 0 #891E2B;
+        box-shadow: 0 1.13vw 0 #891E2B;
     }
       
     .white-button {
         background-color: #FDD2ED;
-        box-shadow: 0 0.75vw 0 #F68187;
+        box-shadow: 0 1.13vw 0 #F68187;
     }
 
     #calculator {
-        width: 60vw;
-        height: 75vw;
-        border-radius: 5vw;
-        border: solid #891E2B 2vw;
+        width: 90vw;
+        height: 112.5vw;
+        border-radius: 7.5vw;
+        border: solid #891E2B 3vw;
     }
       
     #display {
-        height: 13vw;
-        width: 55vw;
-        border-radius: 1.5vw;
-        border: solid #891E2B 1vw;
-        font-size: 8vw;
+        height: 19.5vw;
+        width: 82.5vw;
+        border-radius: 2.25vw;
+        border: solid #891E2B 1.5vw;
+        font-size: 12vw;
     }
       
     #full-display {
-        font-size: 3vw;
-        top: 13.5vw;
-        right: 3vw;
+        font-size: 4.5vw;
+        top: 20.25vw;
+        right: 4.5vw;
     }
       
     #button-grid {
-        grid-template-columns: repeat(4, 14.5vw);
-        grid-template-rows: repeat(5, 10.5vw);
-        margin-top: 2vw;
+        grid-template-columns: repeat(4, 21.75vw);
+        grid-template-rows: repeat(5, 15.75vw);
+        margin-top: 3vw;
     }
 }
