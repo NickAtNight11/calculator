@@ -1,0 +1,140 @@
+.calc-button {
+    border-radius: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+}
+  
+.small-button {
+    width: 13vh;
+    height: 9vh;
+}
+  
+.large-button {
+    width: 28vh;
+    height: 9vh;
+}
+  
+.red-button {
+    background-color: #F68187;
+    box-shadow: 0 0.75vh 0 #891E2B;
+}
+  
+.white-button {
+    background-color: #FDD2ED;
+    box-shadow: 0 0.75vh 0 #F68187;
+}
+  
+#root {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0069AA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#calculator {
+    width: 60vh;
+    height: 75vh;
+    position: relative;
+    background-color: #EA323C;
+    border-radius: 5vh;
+    border: solid #891E2B 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+#display {
+    height: 13vh;
+    width: 55vh;
+    background-color: #272727;
+    border-radius: 1.5vh;
+    border: solid #891E2B 1vh;
+    color: white;
+    font-size: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+  
+#full-display {
+    position: absolute;
+    color: #FDD2ED;
+    font-size: 3vh;
+    top: 13.5vh;
+    right: 3vh;
+}
+  
+#button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 14.5vh);
+    grid-template-rows: repeat(5, 10.5vh);
+    justify-items: center;
+    align-items: center;
+    margin-top: 2vh;
+}
+  
+#clear {
+    grid-column: 1 / 3;
+}
+  
+#equals {
+    grid-column: 3 / 5;
+}
+
+@media screen and (orientation:portrait) {
+    .calc-button {
+        border-radius: 1vw;
+        font-size: 5vw;
+    }
+      
+    .small-button {
+        width: 13vw;
+        height: 9vw;
+    }
+      
+    .large-button {
+        width: 28vw;
+        height: 9vw;
+    }
+    
+    .red-button {
+        box-shadow: 0 0.75vw 0 #891E2B;
+    }
+      
+    .white-button {
+        background-color: #FDD2ED;
+        box-shadow: 0 0.75vw 0 #F68187;
+    }
+
+    #calculator {
+        width: 60vw;
+        height: 75vw;
+        border-radius: 5vw;
+        border: solid #891E2B 2vw;
+    }
+      
+    #display {
+        height: 13vw;
+        width: 55vw;
+        border-radius: 1.5vw;
+        border: solid #891E2B 1vw;
+        font-size: 8vw;
+    }
+      
+    #full-display {
+        font-size: 3vw;
+        top: 13.5vw;
+        right: 3vw;
+    }
+      
+    #button-grid {
+        grid-template-columns: repeat(4, 14.5vw);
+        grid-template-rows: repeat(5, 10.5vw);
+        margin-top: 2vw;
+    }
+}
